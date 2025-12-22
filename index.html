@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUAN MANUEL & CARLOTA | JEREZ 2026</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- =============================================
+         HERO SECTION
+         ============================================= -->
+    <header>
+        <div class="catavinos-container">
+            <div class="glass glass-left"><div class="liquid"></div></div>
+            <div class="sparkle"></div>
+            <div class="glass glass-right"><div class="liquid"></div></div>
+        </div>
+        <h1 class="hero-title">JUAN MANUEL <br> & CARLOTA</h1>
+        <div class="hero-date">23 . MAYO . 2026</div>
+        
+        <!-- COUNTDOWN -->
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <span class="countdown-number" id="days">000</span>
+                <span class="countdown-label">Días</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-item">
+                <span class="countdown-number" id="hours">00</span>
+                <span class="countdown-label">Horas</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-item">
+                <span class="countdown-number" id="minutes">00</span>
+                <span class="countdown-label">Min</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-item">
+                <span class="countdown-number" id="seconds">00</span>
+                <span class="countdown-label">Seg</span>
+            </div>
+        </div>
+    </header>
+	
+	<div class="parallax-vineyard">
+		<img src="images/fundador.jpg" class="parallax-bg" alt="">
+		<div class="parallax-text reveal">JEREZ DE LA FRONTERA</div>
+	</div>
+
+    <!-- =============================================
+         1. NUESTRA HISTORIA
+         ============================================= -->
+    <section class="story-section">
+        <h2 class="section-title reveal">NUESTRA HISTORIA</h2>
+        <div class="timeline">
+            <!-- 2018-2020: Amor a distancia -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/pamplona.png" alt="Pamplona y Sevilla">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2018-2020</div>
+                    <h3>Amor entre dos ciudades</h3>
+                    <p>2 años de amor entre Pamplona y Sevilla. El AVE se convirtió en nuestro mejor aliado para acortar las distancias.</p>
+                </div>
+            </div>
+            
+            <!-- 2020: Confinamiento -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/confinamiento.png" alt="Confinamiento en Sevilla">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2020</div>
+                    <h3>Prueba de fuego superada</h3>
+                    <p>¡Confinamiento juntos en Sevilla! Lo que podía ser un reto se convirtió en la confirmación de que éramos el uno para el otro.</p>
+                </div>
+            </div>
+            
+            <!-- 2021: Cádiz -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/cadiz.png" alt="Cádiz">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2021</div>
+                    <h3>Nuestro hogar en Cádiz</h3>
+                    <p>Construimos juntos nuestro primer hogar en la tacita de plata. El mar como testigo de nuestra nueva etapa.</p>
+                </div>
+            </div>
+            
+            <!-- 2024: Compromiso -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/patagonia.png" alt="Compromiso en Bariloche">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2024</div>
+                    <h3>El compromiso</h3>
+                    <p>En la Patagonia argentina, entre las montañas y lagos de Bariloche, llegó la pregunta más importante. Y la respuesta fue SÍ.</p>
+                </div>
+            </div>
+            
+            <!-- 2025: Málaga -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/malaga.png" alt="Málaga">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2025</div>
+                    <h3>Nueva aventura en Málaga</h3>
+                    <p>Llegamos a Málaga, listos para nuestro futuro. Una nueva ciudad para escribir los próximos capítulos de nuestra historia.</p>
+                </div>
+            </div>
+            
+            <!-- 2026: La boda -->
+            <div class="timeline-item reveal">
+                <div class="timeline-illustration">
+                    <img src="images/bodega.png" alt="Bodegas Luis Pérez" style="border: 3px solid var(--albero);">
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2026</div>
+                    <h3>El Sí Quiero</h3>
+                    <p>23 de Mayo. Bodegas Luis Pérez, Jerez. El capítulo más importante de nuestra historia... ¡y queremos escribirlo con vosotros!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         2. EL FIN DE SEMANA
+         ============================================= -->
+    <section class="day-timeline-section">
+        <h2 class="section-title reveal">EMPIEZA LA FIESTA</h2>
+        <p style="text-align: center; color: #aaa; margin-top: -20px;">Haz clic en cada momento para más detalles</p>
+        
+        <div class="day-timeline-wrapper reveal">
+            <!-- DÍA 22 -->
+            <div class="day-date-header">
+                <span class="day-date-number">22</span>
+                <span class="day-date-text">VIERNES</span>
+            </div>
+            
+            <div class="day-timeline-line day-timeline-short">
+                <!-- Bienvenida -->
+                <div class="day-timeline-item" onclick="openTimelineModal('bienvenida')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-wine-glass"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">20:00</div>
+                        <div class="timeline-item-label">Vino de Honor</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- DÍA 23 -->
+            <div class="day-date-header" style="margin-top: 40px;">
+                <span class="day-date-number">23</span>
+                <span class="day-date-text">SÁBADO</span>
+            </div>
+            
+            <div class="day-timeline-line">
+                <!-- Recogida -->
+                <div class="day-timeline-item" onclick="openTimelineModal('recogida')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">11:45</div>
+                        <div class="timeline-item-label">Recogida</div>
+                    </div>
+                </div>
+                
+                <!-- Ceremonia -->
+                <div class="day-timeline-item" onclick="openTimelineModal('ceremonia')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">12:30</div>
+                        <div class="timeline-item-label">Ceremonia</div>
+                    </div>
+                </div>
+                
+                <!-- Cóctel -->
+                <div class="day-timeline-item" onclick="openTimelineModal('coctel')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-champagne-glasses"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">14:00</div>
+                        <div class="timeline-item-label">Cóctel</div>
+                    </div>
+                </div>
+                
+                <!-- Comida -->
+                <div class="day-timeline-item" onclick="openTimelineModal('comida')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">16:30</div>
+                        <div class="timeline-item-label">Banquete</div>
+                    </div>
+                </div>
+                
+                <!-- Sorpresa -->
+                <div class="day-timeline-item" onclick="openTimelineModal('sorpresa')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">18:00</div>
+                        <div class="timeline-item-label">Ahora sí</div>
+                    </div>
+                </div>
+                
+                <!-- Vuelta -->
+                <div class="day-timeline-item" onclick="openTimelineModal('vuelta')">
+                    <div class="timeline-icon-wrapper">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <div class="timeline-item-info">
+                        <div class="timeline-item-time">00:00</div>
+                        <div class="timeline-item-label">Vuelta</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Badges de buses -->
+        <div class="bus-info-container reveal">
+            <div class="bus-badge">
+                <i class="fas fa-bus"></i>
+                <span><strong>1º Bus:</strong> 00:00 aprox.</span>
+            </div>
+            <div class="bus-badge">
+                <i class="fas fa-bus"></i>
+                <span><strong>2º Bus:</strong> 02:00 aprox.</span>
+            </div>
+            <p class="taxi-link reveal">
+                <a href="https://www.jerez.es/webs-municipales/movilidad/transportes/taxis" target="_blank">
+                    <i class="fas fa-taxi"></i> ¿Prefieres ir por tu cuenta? Taxis en Jerez
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Modal del Timeline -->
+    <div class="timeline-modal-overlay" id="timelineModalOverlay" onclick="closeTimelineModal(event)">
+        <div class="timeline-modal" onclick="event.stopPropagation()">
+            <button class="timeline-modal-close" onclick="closeTimelineModalBtn()"><i class="fas fa-times"></i></button>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon" id="timelineModalIcon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="timeline-modal-time" id="timelineModalTime">12:30</div>
+                <div class="timeline-modal-title" id="timelineModalTitle">Ceremonia</div>
+            </div>
+            <div class="timeline-modal-body">
+                <p id="timelineModalDescription">Descripción del evento</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================================
+         3. ZONA RECOMENDADA
+         ============================================= -->
+    <section class="zone-section">
+        <h2 class="section-title reveal" style="color: var(--vino);">ZONA RECOMENDADA</h2>
+        <p style="text-align: center; margin-bottom: 50px; color: #666;">Os recomendamos alojaros en el centro de Jerez</p>
+        
+        <div class="zone-container">
+            <div class="zone-info reveal">
+                <h3><i class="fas fa-map-marked-alt" style="color: var(--vino);"></i> Distrito Centro</h3>
+                <p>Para que disfrutéis al máximo de la boda sin preocuparos del coche, os recomendamos alojaros en el centro histórico de Jerez. Así estaréis cerca del punto de recogida del autobús que os llevará a la bodega.</p>
+                
+                <a href="https://www.google.com/maps/d/viewer?mid=18pN3Nn98Ij37DHMPQFRIbF30pV0&femb=1&ll=36.68446675434557%2C-6.136462500000008&z=15" target="_blank" class="zone-btn">
+                    <i class="fas fa-external-link-alt"></i> Ver mapa completo
+                </a>
+            </div>
+			<div class="zone-highlight">
+				<h4><i class="fas fa-bus"></i> Punto de Recogida del Bus</h4>
+				<p>Hemos preparado un autobús que os recogerá en un punto céntrico y os llevará directamente a Bodegas Luis Pérez. ¡Y de vuelta también!</p>
+				<br>
+				<div class="zone-map-container reveal">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.7830669538525!2d-6.143686824360605!3d36.67971657228169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dc6906ec62165%3A0xc603c846c4899316!2sC.%20Puerto%2C%20Jerez%20de%20la%20Frontera%2C%20C%C3%A1diz!5e0!3m2!1ses!2ses!4v1766341925395!5m2!1ses!2ses" width="600" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         4. DÓNDE DORMIR
+         ============================================= -->
+    <section class="sleep-section">
+        <h2 class="section-title reveal">DÓNDE DORMIR</h2>
+        <div class="grid-container">
+            <div class="card-box reveal">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/526488656.jpg?k=25874ae7825a7efe51dff2e1b3e9cff97b42de93ecdef8b286f4caa0d7099167&o=" class="card-bg" alt="esZentrico">
+                <div class="card-info">
+                    <span class="tag">CENTRO</span>
+                    <h3>esZentrico</h3>
+                    <div class="discount-code" onclick="copyAndRedirect('BODA25CyJ', 'https://eszentrico.com')">
+                        <i class="fas fa-ticket-alt"></i>
+                        <div>
+                            <div class="discount-label">Código descuento</div>
+                            <span>BODA25CyJ</span>
+                        </div>
+                        <i class="fas fa-copy" style="margin-left: auto;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box reveal">
+                <img src="https://cdn2.paraty.es/palacio-corredera/images/865644a40b8a297" class="card-bg" alt="Hotel Palacio Corredera">
+                <div class="card-info">
+                    <span class="tag">CENTRO</span>
+                    <h3>Hotel Palacio Corredera</h3>
+                    <div class="discount-code" onclick="copyAndRedirect('CARLOTAYMANUEL', 'https://www.palaciocorredera.com')">
+                        <i class="fas fa-ticket-alt"></i>
+                        <div>
+                            <div class="discount-label">Código descuento</div>
+                            <span>CARLOTAYMANUEL</span>
+                        </div>
+                        <i class="fas fa-copy" style="margin-left: auto;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card-box reveal">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyIuzz8P9byZmFNDEBgzNitDIZYiWzxUzXZm_99T18glneFoC5q1nvOSoLANy6cvTebdwpsaRd7gU2sKLHx2beJdtayfTQacV3kRgoV0LkDfXXSUU1ivU_K5Qbhq3jKU-VOfLlb=s680-w680-h510-rw" class="card-bg" alt="ALLO Apartments">
+                <div class="card-info">
+                    <span class="tag">CENTRO</span>
+                    <h3>ALLO APARTMENTS</h3>
+                    <div class="discount-code" onclick="copyAndRedirect('CLIENTESVIP', 'https://www.alloapartments.com')">
+                        <i class="fas fa-ticket-alt"></i>
+                        <div>
+                            <div class="discount-label">Código descuento</div>
+                            <span>CLIENTESVIP</span>
+                        </div>
+                        <i class="fas fa-copy" style="margin-left: auto;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         5. DRESS CODE
+         ============================================= -->
+    <section class="dresscode-section">
+        <h2 class="section-title reveal" style="color: var(--vino);">DRESS CODE</h2>
+        
+        <div class="dresscode-container">
+            <div class="dresscode-content reveal">
+                <h3><i class="fas fa-vest"></i> Estilo Formal</h3>
+                
+                <p>Os animamos a lucir <strong style="color: var(--vino);">colores primaverales</strong>, tonos alegres y estampados florales que celebren la estación más bonita del año.</p>
+                
+                <div class="dresscode-highlight">
+                    <p><i class="fas fa-crown"></i> <strong>Chicas:</strong> Si os apetece, sentíos libres de atreveros con tocados o pamelas, que aportarán un toque sofisticado y festivo al conjunto.</p>
+                </div>
+            </div>
+            
+            <div class="dresscode-image-container reveal">
+                <div class="dresscode-image-frame">
+                    <img src="images/dress_code.png" alt="Dress Code - Estilo Formal Primaveral">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         6. JEREZ ESSENTIALS - TURISMO
+         ============================================= -->
+    <section class="visit-section">
+        <h2 class="section-title reveal" style="color: var(--albero);">JEREZ ESSENTIALS</h2>
+        <p style="text-align: center; margin-bottom: 50px; color: #aaa;">Si vienes de fuera, no te pierdas esto.</p>
+        
+        <div class="subsection-title reveal"><i class="fas fa-landmark"></i> VISITA TURÍSTICA</div>
+        <p class="subsection-desc reveal">Descubre el patrimonio histórico de una ciudad con más de 3.000 años de historia.</p>
+        
+        <div class="grid-container">
+            <div class="card-box reveal" onclick="openModal('alcazar')">
+                <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/andalucia/alcazar_jerez_frontera_cadiz_s_607821023.jpg" class="card-bg" alt="Alcázar de Jerez">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">MONUMENTO</span>
+                    <h3>Alcázar de Jerez</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Fortaleza árabe del siglo XII</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('catedral')">
+                <img src="https://arteviajero.com/wp-content/uploads/2022/10/Catedral-de-Jerez-de-la-Frontera-Cadiz.jpg" class="card-bg" alt="Catedral de Jerez">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">RELIGIOSO</span>
+                    <h3>Catedral de Jerez</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Joya del barroco andaluz</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('sanmiguel')">
+                <img src="https://www.turismojerez.com/fileadmin/Documentos/Turismo/user_upload/san_miguel.jpg" class="card-bg" alt="Iglesia de San Miguel">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">RELIGIOSO</span>
+                    <h3>Iglesia de San Miguel</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Donde bautizaron a Lola Flores</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('ecuestre')">
+                <img src="https://www.juntadeandalucia.es/sites/default/files/2020-06/20200622_recomendador_real_escuela_arte_ecuestre.jpg" class="card-bg" alt="Escuela Ecuestre">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">ARTE</span>
+                    <h3>Escuela Ecuestre</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Cómo bailan los caballos andaluces</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('arenal')">
+                <img src="https://www.barcelo.com/guia-turismo/wp-content/uploads/2025/06/plaza-del-arenal-jerez.png" class="card-bg" alt="Plaza del Arenal">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">PLAZA</span>
+                    <h3>Plaza del Arenal</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">El corazón de la ciudad</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('callelarga')">
+                <img src="https://images.mnstatic.com/24/1f/241f9a0260684ede68358f0507b33311.jpg" class="card-bg" alt="Calle Larga">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--albero); color: black;">PASEO</span>
+                    <h3>Calle Larga</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">La arteria comercial histórica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         JEREZ ESSENTIALS - GASTRONOMÍA
+         ============================================= -->
+    <section class="gastro-section">
+        <div class="subsection-title reveal"><i class="fas fa-wine-glass-alt"></i> RUTA DE TABANCOS</div>
+        <p class="subsection-desc reveal">Vino de Jerez, tapas y flamenco. La esencia de la ciudad en cada copa.</p>
+        
+        <div class="grid-container">
+            <div class="card-box reveal" onclick="openModal('pasaje')">
+                <img src="https://losviajesdeclaudia.com/wp-content/uploads/2018/04/tabanco-el-pasaje-ruta-por-los-tabancos-de-jerez.jpg" class="card-bg" alt="Tabanco El Pasaje">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">TABANCO</span>
+                    <h3>Tabanco El Pasaje</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Flamenco en directo desde 1925</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('banderillas')">
+                <img src="https://losviajesdeclaudia.com/wp-content/uploads/2018/04/tabanco-las-banderillas-ruta-por-los-tabancos-de-jerez.jpg" class="card-bg" alt="Las Banderillas">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">TABANCO</span>
+                    <h3>Las Banderillas</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">El mejor rabo de toro de Jerez</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('sanpablo')">
+                <img src="https://losviajesdeclaudia.com/wp-content/uploads/2018/04/tabanco-san-pablo-ruta-por-los-tabancos-de-jerez.jpg" class="card-bg" alt="Tabanco San Pablo">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">TABANCO</span>
+                    <h3>Tabanco San Pablo</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Solera pura desde 1934</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('moderna')">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/b2/4c/95/exterior-del-local.jpg" class="card-bg" alt="Bar La Moderna">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">BAR CLÁSICO</span>
+                    <h3>Bar La Moderna</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Más de 100 años de historia</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('juanito')">
+                <img src="https://assets.simpleviewinc.com/sv-andalucia/image/fetch/c_fill,f_jpg,h_343,q_65,w_640/https://spaindmsmedia.newmindmedia.com/wsimgs/4213E50FA3968C3BBE6D9FAB82EA425476F8F509.jpg" class="card-bg" alt="Bar Juanito">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">RESTAURANTE</span>
+                    <h3>Bar Juanito</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Tapas tradicionales jerezanas</p>
+                </div>
+            </div>
+            <div class="card-box reveal" onclick="openModal('donpepe')">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/50/3a/c2/entrada-al-restaurante.jpg" class="card-bg" alt="Don Pepe">
+                <div class="card-info">
+                    <span class="tag" style="background: var(--vino); color: white;">TABANCO</span>
+                    <h3>Don Pepe</h3>
+                    <p style="font-size: 0.9rem; color: #ddd;">Ambiente auténtico jerezano</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+         7. REGALOS
+         ============================================= -->
+    <section class="gift-section">
+        <h2 class="section-title reveal" style="color: var(--vino);">REGALOS</h2>
+        
+        <div class="gift-container reveal">
+            <div class="gift-message">
+                <p class="gift-main-text">
+                    El mejor regalo es teneros a nuestro lado en este día tan especial.
+                </p>
+                <p class="gift-secondary-text">
+                    Pero si queréis ayudarnos a comenzar esta nueva etapa, cualquier aportación irá destinada a nuestros futuros proyectos juntos:
+                </p>
+            </div>
+            
+            <div class="gift-projects">
+                <div class="gift-project-card" style="--bg-image: url('https://images.unsplash.com/photo-1533699224246-6dc3b3ed3304?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <div class="gift-project-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h4>Luna de miel</h4>
+                    <p>Un viaje soñado a Colombia para descubrir juntos nuevos horizontes</p>
+                </div>
+                <div class="gift-project-card" style="--bg-image: url('https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+                    <div class="gift-project-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>Nuestro hogar</h4>
+                    <p>Tu regalo será un pequeño ladrillo más en el sueño de encontrar la casa que soñamos.</p>
+                </div>
+            </div>
+            
+            <div class="gift-iban-container reveal">
+                <p class="gift-iban-intro">Si deseáis contribuir, podéis hacerlo aquí:</p>
+                <div class="gift-iban-box" onclick="copyToClipboard('ES21 0049 1234 56 1234567890')">
+                    <div class="gift-iban-label">
+                        <i class="fas fa-university"></i>
+                        <span>IBAN</span>
+                    </div>
+                    <div class="gift-iban-number">ES21 0049 1234 56 1234567890</div>
+                    <div class="gift-iban-copy">
+                        <i class="fas fa-copy"></i>
+                        <span>Clic para copiar</span>
+                    </div>
+                </div>
+                <p class="gift-iban-names">Juan Manuel & Carlota</p>
+            </div>
+            
+            <p class="gift-thanks">
+                <i class="fas fa-hands-holding-heart" style="color: var(--vino); margin-right: 8px;"></i>
+                ¡Gracias de corazón!
+            </p>
+        </div>
+    </section>
+
+    <!-- =============================================
+         PARALLAX BODEGAS
+         ============================================= -->
+    <div class="parallax-vineyard bodegas-parallax">
+        <img src="https://www.lavozdelsur.es/uploads/s1/23/73/89/5/bodega-luis-perez.jpeg" class="parallax-bg-img" alt="Bodegas Luis Pérez">
+        <div class="parallax-text reveal">BODEGAS LUIS PÉREZ</div>
+    </div>
+
+    <!-- =============================================
+         MAP SECTION
+         ============================================= -->
+    <div class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5!2d-6.1922381!3d36.7016824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dc40b88f6c3af%3A0x9dc598cbba2fc498!2sBodegas%20Luis%20P%C3%A9rez!5e0!3m2!1ses!2ses!4v1716300000000!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- =============================================
+         EXTRA FORMS - MUSIC & PHOTOS
+         ============================================= -->
+    <div class="forms-grid">
+        <section class="music-section">
+            <h3 style="margin-bottom: 20px;"><i class="fas fa-compact-disc"></i> DJ INVITADO</h3>
+            <p style="color: #aaa; margin-bottom: 20px;">Añade las canciones que no pueden faltar en la fiesta</p>
+            <button onclick="window.open('https://open.spotify.com/playlist/3Xr9ZgfNx40aozMpzOV45l?si=04giUMVER_ClmGbOQy8FBQ&pt=5338dabc5a22d2ceebaefe512c5fbd5e&pi=vSV_eUC4QrmIG', '_blank')" class="music-btn" style="border-radius: 10px;">
+                <i class="fab fa-spotify"></i> AÑADIR CANCIÓN A LA PLAYLIST
+            </button>
+        </section>
+
+        <section class="photo-section">
+            <h3 style="margin-bottom: 20px;"><i class="fas fa-camera-retro"></i> SUBE TUS FOTOS</h3>
+            <div class="drop-zone" id="dropZone">
+                <button onclick="window.open('https://drive.google.com/drive/folders/1_EMUi8iHUmXpiSvrdtgOgwgiKHwDlevz?usp=sharing', '_blank')" class="music-btn" style="border-radius: 10px;">
+                    <i class="fab fa-google-drive"></i> AÑADE AQUÍ LAS FOTOS DEL DÍA
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- =============================================
+         FOOTER
+         ============================================= -->
+    <footer>
+        <h2 style="margin-bottom: 30px;">¿TE VIENES?</h2>
+        <button onclick="openRSVP()" class="music-btn" style="max-width: 300px; margin: 0 auto; border-radius: 50px;">CONFIRMAR ASISTENCIA</button>
+        <p style="margin-top: 50px; font-size: 0.8rem; color: #666;">JUAN MANUEL & CARLOTA • 2026</p>
+    </footer>
+
+    <!-- =============================================
+         MODAL - PLACES
+         ============================================= -->
+    <div class="custom-modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="custom-modal" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModalBtn()"><i class="fas fa-times"></i></button>
+            <img class="modal-image" id="modalImage" src="" alt="">
+            <div class="modal-content">
+                <span class="modal-tag" id="modalTag"></span>
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <p class="modal-description" id="modalDescription"></p>
+                <div class="modal-details" id="modalDetails"></div>
+                <a class="modal-map-btn" id="modalMapBtn" href="" target="_blank">
+                    <i class="fas fa-map-marker-alt"></i> VER EN GOOGLE MAPS
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- =============================================
+         SCRIPTS
+         ============================================= -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
