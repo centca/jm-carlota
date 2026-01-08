@@ -7,7 +7,7 @@
 // COUNTDOWN TIMER
 // =============================================
 function updateCountdown() {
-    const weddingDate = new Date('2026-05-23T12:00:00');
+    const weddingDate = new Date('2026-05-23T12:30:00');
     const now = new Date();
     const diff = weddingDate - now;
     
@@ -40,7 +40,7 @@ setInterval(updateCountdown, 1000);
 const timelineData = {
     bienvenida: {
         icon: 'fa-wine-glass',
-        time: '20:00',
+        time: '19:300',
         title: 'Bienvenida a Jerez',
         description: 'Queremos daros la bienvenida con un <strong>vino de honor</strong>, un ratito tranquilo para vernos, brindar y empezar a sentir la magia de Jerez juntos.<br><br>Un encuentro sencillo y relajado para reencontrarnos antes del gran día.<br><br><em>* Ubicación por confirmar</em>'
     },
