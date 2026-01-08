@@ -3,36 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUAN MANUEL & CARLOTA | JEREZ 2026</title>
+    <title>CARLOTA & JUAN MANUEL | JEREZ 2026</title>
     
-    <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
     
-    <!-- External Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- =============================================
-         HERO SECTION
-         ============================================= -->
     <header>
         <div class="catavinos-container">
             <div class="glass glass-left"><div class="liquid"></div></div>
             <div class="sparkle"></div>
             <div class="glass glass-right"><div class="liquid"></div></div>
         </div>
-        <h1 class="hero-title">JUAN MANUEL <br> & CARLOTA</h1>
+        <h1 class="hero-title">CARLOTA <br> & JUAN MANUEL</h1>
         <div class="hero-date">23 . MAYO . 2026</div>
         
-        <!-- COUNTDOWN -->
         <div class="countdown-container">
             <div class="countdown-item">
                 <span class="countdown-number" id="days">000</span>
@@ -61,13 +53,10 @@
 		<div class="parallax-text reveal">JEREZ DE LA FRONTERA</div>
 	</div>
 
-    <!-- =============================================
-         1. NUESTRA HISTORIA
-         ============================================= -->
+
     <section class="story-section">
         <h2 class="section-title reveal">NUESTRA HISTORIA</h2>
         <div class="timeline">
-            <!-- 2018-2020: Amor a distancia -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/pamplona.png" alt="Pamplona y Sevilla">
@@ -80,7 +69,6 @@
                 </div>
             </div>
             
-            <!-- 2020: Confinamiento -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/confinamiento.png" alt="Confinamiento en Sevilla">
@@ -93,7 +81,6 @@
                 </div>
             </div>
             
-            <!-- 2021: Cádiz -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/cadiz.png" alt="Cádiz">
@@ -106,7 +93,6 @@
                 </div>
             </div>
             
-            <!-- 2024: Compromiso -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/patagonia.png" alt="Compromiso en Bariloche">
@@ -119,7 +105,6 @@
                 </div>
             </div>
             
-            <!-- 2025: Málaga -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/malaga.png" alt="Málaga">
@@ -132,7 +117,6 @@
                 </div>
             </div>
             
-            <!-- 2026: La boda -->
             <div class="timeline-item reveal">
                 <div class="timeline-illustration">
                     <img src="images/bodega.png" alt="Bodegas Luis Pérez" style="border: 3px solid var(--albero);">
@@ -147,22 +131,17 @@
         </div>
     </section>
 
-    <!-- =============================================
-         2. EL FIN DE SEMANA
-         ============================================= -->
     <section class="day-timeline-section">
         <h2 class="section-title reveal">EMPIEZA LA FIESTA</h2>
         <p style="text-align: center; color: #aaa; margin-top: -20px;">Haz clic en cada momento para más detalles</p>
         
         <div class="day-timeline-wrapper reveal">
-            <!-- DÍA 22 -->
             <div class="day-date-header">
                 <span class="day-date-number">22</span>
                 <span class="day-date-text">VIERNES</span>
             </div>
             
             <div class="day-timeline-line day-timeline-short">
-                <!-- Bienvenida -->
                 <div class="day-timeline-item" onclick="openTimelineModal('bienvenida')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-wine-glass"></i>
@@ -174,14 +153,12 @@
                 </div>
             </div>
             
-            <!-- DÍA 23 -->
             <div class="day-date-header" style="margin-top: 40px;">
                 <span class="day-date-number">23</span>
                 <span class="day-date-text">SÁBADO</span>
             </div>
             
             <div class="day-timeline-line">
-                <!-- Recogida -->
                 <div class="day-timeline-item" onclick="openTimelineModal('recogida')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-bus"></i>
@@ -192,7 +169,6 @@
                     </div>
                 </div>
                 
-                <!-- Ceremonia -->
                 <div class="day-timeline-item" onclick="openTimelineModal('ceremonia')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-ring"></i>
@@ -203,7 +179,6 @@
                     </div>
                 </div>
                 
-                <!-- Cóctel -->
                 <div class="day-timeline-item" onclick="openTimelineModal('coctel')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-champagne-glasses"></i>
@@ -214,7 +189,6 @@
                     </div>
                 </div>
                 
-                <!-- Comida -->
                 <div class="day-timeline-item" onclick="openTimelineModal('comida')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-utensils"></i>
@@ -225,7 +199,6 @@
                     </div>
                 </div>
                 
-                <!-- Sorpresa -->
                 <div class="day-timeline-item" onclick="openTimelineModal('sorpresa')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-music"></i>
@@ -236,7 +209,6 @@
                     </div>
                 </div>
                 
-                <!-- Vuelta -->
                 <div class="day-timeline-item" onclick="openTimelineModal('vuelta')">
                     <div class="timeline-icon-wrapper">
                         <i class="fas fa-bus"></i>
@@ -249,7 +221,6 @@
             </div>
         </div>
         
-        <!-- Badges de buses -->
         <div class="bus-info-container reveal">
             <div class="bus-badge">
                 <i class="fas fa-bus"></i>
@@ -267,7 +238,6 @@
         </div>
     </section>
 
-    <!-- Modal del Timeline -->
     <div class="timeline-modal-overlay" id="timelineModalOverlay" onclick="closeTimelineModal(event)">
         <div class="timeline-modal" onclick="event.stopPropagation()">
             <button class="timeline-modal-close" onclick="closeTimelineModalBtn()"><i class="fas fa-times"></i></button>
@@ -284,9 +254,6 @@
         </div>
     </div>
 
-    <!-- =============================================
-         3. ZONA RECOMENDADA
-         ============================================= -->
     <section class="zone-section">
         <h2 class="section-title reveal" style="color: var(--vino);">ZONA RECOMENDADA</h2>
         <p style="text-align: center; margin-bottom: 50px; color: #666;">Os recomendamos alojaros en el centro de Jerez</p>
@@ -311,9 +278,6 @@
         </div>
     </section>
 
-    <!-- =============================================
-         4. DÓNDE DORMIR
-         ============================================= -->
     <section class="sleep-section">
         <h2 class="section-title reveal">DÓNDE DORMIR</h2>
         <div class="grid-container">
@@ -365,9 +329,6 @@
         </div>
     </section>
 
-    <!-- =============================================
-         5. DRESS CODE
-         ============================================= -->
     <section class="dresscode-section">
         <h2 class="section-title reveal" style="color: var(--vino);">DRESS CODE</h2>
         
@@ -390,9 +351,6 @@
         </div>
     </section>
 
-    <!-- =============================================
-         6. JEREZ ESSENTIALS - TURISMO
-         ============================================= -->
     <section class="visit-section">
         <h2 class="section-title reveal" style="color: var(--albero);">JEREZ ESSENTIALS</h2>
         <p style="text-align: center; margin-bottom: 50px; color: #aaa;">Si vienes de fuera, no te pierdas esto.</p>
@@ -428,9 +386,6 @@
         </div>
     </section>
 
-    <!-- =============================================
-         JEREZ ESSENTIALS - GASTRONOMÍA
-         ============================================= -->
     <section class="gastro-section">
         <div class="subsection-title reveal"><i class="fas fa-wine-glass-alt"></i> RUTA DE TABANCOS</div>
         <p class="subsection-desc reveal">Vino de Jerez, tapas y flamenco. La esencia de la ciudad en cada copa.</p>
@@ -463,9 +418,6 @@
         </div>
     </section>
 
-    <!-- =============================================
-         7. REGALOS
-         ============================================= -->
     <section class="gift-section">
         <h2 class="section-title reveal" style="color: var(--vino);">REGALOS</h2>
         
@@ -492,7 +444,7 @@
                         <span>Clic para copiar</span>
                     </div>
                 </div>
-                <p class="gift-iban-names">Juan Manuel & Carlota</p>
+                <p class="gift-iban-names">Carlota & Juan Manuel</p>
             </div>
             
             <p class="gift-thanks">
@@ -502,24 +454,15 @@
         </div>
     </section>
 
-    <!-- =============================================
-         PARALLAX BODEGAS
-         ============================================= -->
     <div class="parallax-vineyard bodegas-parallax">
         <img src="https://www.lavozdelsur.es/uploads/s1/23/73/89/5/bodega-luis-perez.jpeg" class="parallax-bg-img" alt="Bodegas Luis Pérez">
         <div class="parallax-text reveal">BODEGAS LUIS PÉREZ</div>
     </div>
 
-    <!-- =============================================
-         MAP SECTION
-         ============================================= -->
     <div class="map-section">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5!2d-6.1922381!3d36.7016824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dc40b88f6c3af%3A0x9dc598cbba2fc498!2sBodegas%20Luis%20P%C3%A9rez!5e0!3m2!1ses!2ses!4v1716300000000!5m2!1ses!2ses" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
-    <!-- =============================================
-         EXTRA FORMS - MUSIC & PHOTOS
-         ============================================= -->
     <div class="forms-grid">
         <section class="music-section">
             <h3 style="margin-bottom: 20px;"><i class="fas fa-compact-disc"></i> DJ INVITADO</h3>
@@ -539,18 +482,12 @@
         </section>
     </div>
 
-    <!-- =============================================
-         FOOTER
-         ============================================= -->
     <footer>
         <h2 style="margin-bottom: 30px;">¿TE VIENES?</h2>
         <button onclick="openRSVP()" class="music-btn" style="max-width: 300px; margin: 0 auto; border-radius: 50px;">CONFIRMAR ASISTENCIA</button>
-        <p style="margin-top: 50px; font-size: 0.8rem; color: #666;">JUAN MANUEL & CARLOTA • 2026</p>
+        <p style="margin-top: 50px; font-size: 0.8rem; color: #666;">CARLOTA & JUAN MANUEL • 2026</p>
     </footer>
 
-    <!-- =============================================
-         MODAL - PLACES
-         ============================================= -->
     <div class="custom-modal-overlay" id="modalOverlay" onclick="closeModal(event)">
         <div class="custom-modal" onclick="event.stopPropagation()">
             <button class="modal-close" onclick="closeModalBtn()"><i class="fas fa-times"></i></button>
@@ -567,9 +504,6 @@
         </div>
     </div>
 
-    <!-- =============================================
-         SCRIPTS
-         ============================================= -->
     <script src="js/main.js"></script>
 
 </body>
