@@ -40,16 +40,14 @@ setInterval(updateCountdown, 1000);
 const timelineData = {
     bienvenida: {
         icon: 'fa-wine-glass',
-        time: '19:300',
+        time: '20:00',
         title: 'Bienvenida a Jerez',
-        description: 'Queremos daros la bienvenida con un <strong>vino de honor</strong>, un ratito tranquilo para vernos, brindar y empezar a sentir la magia de Jerez juntos.<br><br>Un encuentro sencillo y relajado para reencontrarnos antes del gran día.<br><br><em>* Ubicación por confirmar</em>'
-    },
+        description: 'Queremos daros la bienvenida con un <strong>vino de honor</strong>, un ratito tranquilo para vernos, brindar y empezar a sentir la magia de Jerez juntos.<br><br>Un encuentro sencillo y relajado para reencontrarnos antes del gran día.<br><br>📍 <a href="https://maps.app.goo.gl/4n6ZLrEPmjVZeNFs5" target="_blank" style="color: #E3B358;">Bodegas Faustino González</a>'    },
     recogida: {
         icon: 'fa-bus',
         time: '11:45',
         title: 'Recogida de Invitados',
-        description: 'El autobús os recogerá en la <strong>calle Puerto</strong>, en pleno centro de Jerez. ¡Sed puntuales para no perderos nada! Os recomendamos estar 10 minutos antes.'
-    },
+        description: 'El autobús os recogerá en la <strong>Fuente de la calle Puerto</strong>, en pleno centro de Jerez. ¡Sed puntuales para no perderos nada! Os recomendamos estar 10 minutos antes.<br><br>📍 <a href="https://maps.app.goo.gl/GnLtocZkrgdqDasK6" target="_blank" style="color: #E3B358;">Ver punto de recogida</a>'    },
     ceremonia: {
         icon: 'fa-ring',
         time: '12:30',
@@ -75,11 +73,11 @@ const timelineData = {
         description: 'Prepárate para una tarde donde todo puede pasar.<br><br><strong>¡No os lo podéis perder!</strong>'
     },
     vuelta: {
-        icon: 'fa-bus',
-        time: '00:00 / 02:00',
-        title: 'Buses de Vuelta',
-        description: 'Habrá <strong>dos autobuses de regreso</strong> a la calle Puerto:<br><br>🚌 <strong>Primer bus:</strong> 00:00h aprox.<br>🚌 <strong>Segundo bus:</strong> 02:00h aprox.<br><br>¡Que nadie se quede tirado!'
-    }
+       icon: 'fa-bus',
+       time: '02:00',
+       title: 'Bus de Vuelta',
+       description: 'Habrá un <strong>autobús de regreso</strong> a la calle Puerto:<br><br>🚌 <strong>Bus:</strong> 02:00h aprox.<br><br>¡Que nadie se quede tirado!'
+   }
 };
 
 function openTimelineModal(eventId) {
