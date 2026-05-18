@@ -74,9 +74,9 @@ const timelineData = {
     },
     vuelta: {
        icon: 'fa-bus',
-       time: '02:00',
-       title: 'Bus de Vuelta',
-       description: 'Habrá un <strong>autobús de regreso</strong> a la calle Puerto:<br><br>🚌 <strong>Bus:</strong> 02:00h aprox.<br><br>¡Que nadie se quede tirado!'
+       time: 'Buses de Vuelta',
+       title: 'Buses de Vuelta',
+       description: 'Regreso a la calle Puerto a las <strong>02:00h aprox.</strong><br><br>¡Os esperamos a todos!'
    }
 };
 
